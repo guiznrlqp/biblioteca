@@ -1,0 +1,47 @@
+#bg-verde {
+    background-color: #345457;
+    height: 125px; /* adicionar mais "px" pra especificar mais a altura */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand i {
+    margin-right: 10px; /* Ajuste o valor conforme necessário */
+}
+
+
+.container, #bg-verde{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+}
+
+.container, .collapse navbar-collapse {
+    font-family: 'Nunito', sans-serif !important;
+    color: #000;
+    text-decoration: none;
+}
+
+#pdr-5 {
+    padding-right: 5px;
+}
+
+#borda, #borda-r {
+    border: 3px solid rgb(8, 2, 78);
+    border-radius: 3px;
+    margin: 2px;
+}
+
+#borda-r {
+    border-right: 3px solid rgb(8, 2, 78);
+}
+
+/* Adicione estilos para links */
+a {
+    text-decoration: none;
+    color: #000; /* define uma cor pros links */
+}
+
+/* adicione estilos para imagens responsivas */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
